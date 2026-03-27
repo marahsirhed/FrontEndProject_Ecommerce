@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
  <header class="w-[100%] h-[50px] bg-[#e8e8e8]">
@@ -37,8 +38,80 @@
  </div>
 </header>
 
-  <div class="w-[100%] h-[500px] bg-green-400">
+<div class="relative w-full h-[500px]">
+
+<!-- background-->
+  <div class="w-full h-full bg-[url('./assets/slide_1.jpg')] bg-cover bg-center"></div>
+<!-- left arrow-->
+  <div class="group absolute left-5 top-1/2 -translate-y-1/2 w-[50px] h-[50px] bg-[#ffffff80] flex items-center justify-center hover:bg-white transition duration-300">
+    <i class="fa-solid fa-angle-left text-[#21212180] group-hover:text-[#ff4545]"></i>
+  </div>
+  <!-- title-->
+  <div class="group absolute mx-[20px] left-[150px] right-5 top-[69px]  w-[640px] h-[304.68] flex flex-col items-center justify-center">
+<h2 class="text-[72px] text-[#2e2e2e] text-center font-sans font-bold w-[610px] h-[172.8px]">
+      <span class="block">Trend Fashion</span>
+    <span class="block">Collection</span>
+</h2>
+ <p class="mt-11 text-[#2e2e2e] text-[20px] font-normal">
+    Up to 30% off selected Product
+  </p>
+
+  <a href="shop.html" class="mt-[65px]  text-[#ffffff] font-semibold bg-[#ff4545] px-[30px] py-[15px] border-solid rounded-md hover:bg-[#000000]">
+    Shop Now
+  </a>
 
   </div>
+  <!-- right arrow-->
+  <div class="group absolute right-5 top-1/2 -translate-y-1/2 w-[50px] h-[50px] bg-[#ffffff80] flex items-center justify-center hover:bg-white transition duration-300">
+    <i class="fa-solid fa-angle-right text-[#21212180] group-hover:text-[#ff4545]"></i>
+  </div>
+</div>
+<div>
+ <div class="w-[100%] h-[200px] justify-center items-center">
+  <div class="container mx-auto  w-[1000px] h-[125px] my-[50px] flex items-center justify-between ">
+     <div class="flex-1 h-[99px] bg-yellow-200 flex items-center gap-[20px]">
+     <img src="./assets/shipping.png" class="transition ease-in-out delay-100  hover:scale-110" >
+     <div class=" w-[130px] h-[99px] items-center ">
+         <div class="items-center">
+          <div><h5 class="text-[18px] text-[#2e2e2e] font-sans font-medium">FREE SHIPPING</h5>
+          </div>
+         </div>
+         <div class="text-[14px] text-[#2e2e2e] font-sans">Free shipping on all order</div>
+     </div>
+     </div>
+       <div class="flex-1 h-[99px] bg-yellow-200 flex items-center gap-[20px]">
+     <img src="./assets/support.png"  class="transition ease-in-out delay-100  hover:scale-110">
+     <div class=" w-[130px] h-[99px]  items-center ">
+         <div class="items-center">
+          <div><h5 class="text-[18px] text-[#2e2e2e] font-sans font-medium">SUPPORT 24/7</h5>
+          </div>
+         </div>
+         <div class="text-[14px] text-[#2e2e2e] font-sans">support 24 hours a day</div>
+     </div>
+     </div>
+          <div class="flex-1 h-[99px] bg-yellow-200 flex items-center gap-[20px]">
+     <img src="./assets/money.png" class="transition ease-in-out delay-100  hover:scale-110" >
+     <div class=" w-[130px] h-[99px] items-center">
+         <div class="items-center">
+          <div><h5 class="text-[18px] text-[#2e2e2e] font-sans font-medium">MONEY RETURN</h5>
+          </div>
+         </div>
+         <div class="text-[14px] text-[#2e2e2e] font-sans">Back guarantee under 5 days</div>
+     </div>
+     </div>
+          <div class="flex-1 h-[99px] bg-yellow-200 flex items-center gap-[20px]">
+     <img src="./assets/discount.png" class="transition ease-in-out delay-100  hover:scale-110" >
+     <div class=" w-[130px] h-[99px] items-center">
+         <div class="items-center">
+          <div><h5 class="text-[18px] text-[#2e2e2e] font-sans font-medium">ORDER DISCOUNT</h5>
+          </div>
+         </div>
+         <div class="text-[14px] text-[#2e2e2e] font-sans">Onevery order over $150</div>
+     </div>
+     </div>
+  </div>
+
+ </div>
+</div>
 </body>
-</html>
+</html> 
